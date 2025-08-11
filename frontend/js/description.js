@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     async function loadSection() {
         try {
-            const response = await fetch(`http://147.45.210.37:8080/sport/sections/${encodeURIComponent(sectionId)}`, {
+            const response = await fetch(`http://localhost:8080/sport/sections/${encodeURIComponent(sectionId)}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json'

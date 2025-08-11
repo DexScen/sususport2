@@ -64,7 +64,8 @@ body {
     gap: 8px;
 
     .mark-button,
-    .download-button {
+    .download-button,
+    .stop-button {
         width: 90%;
         height: 53px;
         border-radius: 8px;
@@ -80,7 +81,8 @@ body {
         text-align: left;
     }
 
-    .mark-button {
+    .mark-button,
+    .stop-button {
         border: 2px solid rgba(0, 67, 148, 0.75);
         border-radius: 12px;
         background: rgba(255, 255, 255, 0.75);

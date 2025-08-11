@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     async function loadSections() {
         try {
-            const response = await fetch('http://147.45.210.37:8080/sport/sections', {
+            const response = await fetch('http://localhost:8080/sport/sections', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json'

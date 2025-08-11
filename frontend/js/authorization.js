@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             submitButton.disabled = true;
             submitButton.textContent = 'Отправка...';
 
-            const response = await fetch('http://147.45.210.37:8081/users/login', {
+            const response = await fetch('http://localhost:8081/users/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
